@@ -14,6 +14,7 @@ using namespace ariel;
 // and if so the number we send to thr function will be updated.
 bool getNum(const string& str,int *castedNumber)
 {
+    *castedNumber = 0 ;
     int len = str.length();
     for (int i = 0; i < str.length(); i++)
     {
